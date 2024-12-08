@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5e5f7; /* Base background color */
+    opacity: 0.8; /* Set opacity for the entire body */
+    margin: 0;
+    padding: 0;
+    background-image: 
+        repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 10px), 
+        repeating-linear-gradient(#444cf755, #444cf7);
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white; /* Container background */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+select:focus, input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:first-of-type {
+    background-color: #28a745; /* Green for add grade */
+}
+
+button:first-of-type:hover {
+    background-color: #218838;
+}
+
+#reset-button {
+    background-color: #dc3545; /* Red for reset */
+}
+
+#reset-button:hover {
+    background-color: #c82333; /* Darker red for hover */
+}
+
+h2, h3 {
+    color: #333;
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
